@@ -74,6 +74,10 @@ And show him My <span>salvation</span>.”</p>`;
 
         window.addEventListener('resize', handleResize);
         handleResize(); // Initial call
+        window.addEventListener('orientationchange', function () {
+            // Adjust layout or reload page on orientation change
+            location.reload();
+        });
     }
 }
 

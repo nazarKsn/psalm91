@@ -261,3 +261,29 @@ span {
         filter: brightness(0.8) contrast(1.3);
     }
 }
+
+@media (max-width: 768px) {
+
+    /* Styles for tablets and mobile phones */
+    .cube {
+        width: 200px;
+        height: 200px;
+    }
+
+    .face {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Styles for mobile phones */
+    .cube {
+        width: 150px;
+        height: 150px;
+    }
+
+    .face {
+        font-size: 12px;
+    }
+}
